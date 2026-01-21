@@ -1,4 +1,4 @@
-package pack1;
+package CoreJavaPac;
 
 public class Modifiers {
 	// Demonstrate static variables, methods, and blocks.

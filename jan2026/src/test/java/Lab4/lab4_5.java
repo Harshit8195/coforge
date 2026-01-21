@@ -27,7 +27,6 @@ public class lab4_5 {
         HashMap<Integer, Employee> map = new HashMap<>();
         Scanner sc = new Scanner(System.in);
  
-        // Add employees
         System.out.print("Enter number of employees: ");
         int n = sc.nextInt();
  
@@ -41,7 +40,6 @@ public class lab4_5 {
             map.put(id, new Employee(id, name, salary, scheme));
         }
  
-        // Display based on insurance scheme
         System.out.print("Enter insurance scheme to search: ");
         String searchScheme = sc.next();
  
@@ -52,7 +50,6 @@ public class lab4_5 {
             }
         }
  
-        // Delete employee
         System.out.print("Enter employee id to delete: ");
         int deleteId = sc.nextInt();
         map.remove(deleteId);

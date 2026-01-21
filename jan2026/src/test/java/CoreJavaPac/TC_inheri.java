@@ -1,4 +1,4 @@
-package pack1;
+package CoreJavaPac;
  
 class base
 {

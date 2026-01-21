@@ -1,4 +1,4 @@
-package pack1;
+package CoreJavaPac;
  
 public class TC_exc {
  

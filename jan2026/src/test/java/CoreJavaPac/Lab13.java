@@ -1,4 +1,4 @@
-package pack1;                                                                                                           
+package CoreJavaPac;                                                                                                           
 	import java.time.LocalDate;                                                                                          
 	import java.time.format.DateTimeFormatter;                                                                           
 	public class Lab13 {                                                                                                 
