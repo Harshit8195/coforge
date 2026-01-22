@@ -91,7 +91,14 @@ public class TC_PersonalDetails {
 			System.out.println("Error is : "+msg);
 		
 		}
-		System.out.println("Your Account has been created");
-
+		String confirm = driver.findElement(By.xpath("//*[@id=\"content\"]/h1")).getText();
+		System.out.println(confirm);
+		
+		
+		//driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div/a")).click();
+//		driver.findElement(By.xpath("//*[@id=\"content\"]/ul[2]/li[1]/a")).click();
+		
+		
+		
 	}
 }

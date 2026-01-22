@@ -1,7 +1,6 @@
 package SeleniumPack;
 
 
-package seleniumpac;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
