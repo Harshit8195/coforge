@@ -231,5 +231,37 @@ public class ExtraTestCaseProject {
 //		    extent.flush();
 //	}
 	
+//	@Test(dataProvider = "logindata")
+//	public void color(String url) throws InterruptedException, IOException {
+//		  Login_POM_Project obj=new Login_POM_Project(driver);
+//		  ExtentTest test=extent.createTest("Verify the color");
+//		
+//		driver.get(url);
+//		
+//		driver.findElement(By.xpath("/html/body/div[4]/div/div[2]/div/div/div/div/button/span")).click();
+//		driver.findElement(By.xpath("//*[@id=\"box-1\"]/a")).click();
+//		driver.findElement(By.xpath("//*[@id=\"box-1\"]/ul/li[1]/ul/li[1]/a")).click();
+//		
+//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//		driver.findElement(By.xpath("//*[@id=\"box-2\"]/a")).click();
+//		driver.findElement(By.xpath("//*[@id=\"box-2\"]/ul/li[3]/ul/li[1]/a")).click();
+//
+//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//		driver.findElement(By.xpath("//*[@id=\"box-3\"]/a")).click();
+//		driver.findElement(By.xpath("/html/body/div[2]/div/div[1]/div/div/header/div[4]/nav/ul[2]/li[3]/ul/li/ul/li[5]/a")).click();
+//		driver.findElement(By.xpath("//*[@id=\"container-c5f20ec573\"]/div/div[3]/header[1]/div[2]/div/ul/li[3]/a")).click();
+//		driver.manage().window().maximize();
+//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+//		driver.findElement(By.xpath("//*[@id=\"imageModaltarget\"]/div/a/picture/img")).click();
+//		Thread.sleep(2000);
+//		driver.navigate().back();
+//
+//		String ss = screenshotutil.captureScreenshot(driver);
+//        test.pass("Test passed").addScreenCaptureFromPath(ss);
+//		extent.flush();	
+//		
+//		
+//		
+//	}
 	
 }
